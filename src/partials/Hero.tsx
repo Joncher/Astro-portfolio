@@ -16,16 +16,15 @@ const Hero = () => (
       description={
         <>
           Full stack web developer with a background in logistics and
-          communication. I grew interested in JavaScript and coding and decided
-          to become a web developer when I discovered that they could help me
-          translate my creative skills into tangible solutions.
+          communication. I grew interested in JavaScript and coding after
+          college which led to working as a free lance web developer.
         </>
       }
       avatar={
         <img
-          className="h-80 w-64"
-          src="/assets/images/avatar.svg"
-          alt="Avatar image"
+          className="w-100 h-80"
+          src="src/images/profile-pic.png"
+          alt="Profile picture"
           loading="lazy"
         />
       }
