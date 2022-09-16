@@ -22,7 +22,7 @@ const Hero = () => (
       }
       avatar={
         <img
-          className="w-100 h-80"
+          className="h-80"
           src="src/images/profile-pic.png"
           alt="Profile picture"
           loading="lazy"
@@ -30,28 +30,13 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/twitter-icon.png"
-              alt="Twitter icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
-          </a>
-          <a href="/">
+          <a
+            href="https://www.linkedin.com/in/john-crespi-oncher-62b4a3175/"
+            target="_blank"
+          >
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
               alt="Linkedin icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/youtube-icon.png"
-              alt="Youtube icon"
             />
           </a>
         </>
