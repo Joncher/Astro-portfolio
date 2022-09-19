@@ -54,7 +54,7 @@ const ProjectList = () => (
         category={
           <>
             <Tags color={ColorTags.BLUE}>React.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
+            <Tags color={ColorTags.INDIGO}>Semantic-UI-React</Tags>
             <Tags color={ColorTags.ROSE}>Ruby on Rails</Tags>
           </>
         }
