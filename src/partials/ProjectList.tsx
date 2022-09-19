@@ -20,7 +20,7 @@ const ProjectList = () => (
         description="A site built for a client to bring more awareness to their business"
         link="https://woodhaven-smokeshop.netlify.app"
         img={{
-          src: '/assets/images/woodhaven-smokeshop.png',
+          src: '/assets/images/woodhaven-smokeshop-min.png',
           alt: 'Smokeshop site project',
         }}
         category={
@@ -35,7 +35,7 @@ const ProjectList = () => (
         description="A Blog site that allows users to engage with small group content"
         link="https://nlf-sg-resources.netlify.app/blog/"
         img={{
-          src: '/assets/images/sg-resource.png',
+          src: '/assets/images/sg-resource-min.png',
           alt: 'Small Group blog project',
         }}
         category={
@@ -50,7 +50,10 @@ const ProjectList = () => (
         name="Overtrack"
         description="An App that allows users to keep track of Overwatch ranked games and gives match history and profile stats"
         link="https://www.youtube.com/watch?v=_sblH20usE8&ab_channel=johnoncher"
-        img={{ src: '/assets/images/Overtrack.png', alt: 'Overtrack Project' }}
+        img={{
+          src: '/assets/images/Overtrack-min.png',
+          alt: 'Overtrack Project',
+        }}
         category={
           <>
             <Tags color={ColorTags.BLUE}>React.js</Tags>
