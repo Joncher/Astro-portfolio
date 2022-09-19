@@ -22,7 +22,7 @@ const Hero = () => (
       }
       avatar={
         <img
-          className="h-80"
+          className="h-64 w-80"
           src="/assets/images/profile-pic.png"
           alt="Profile picture"
           loading="lazy"
